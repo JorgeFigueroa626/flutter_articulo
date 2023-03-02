@@ -27,4 +27,11 @@ En este ejemplo, vamos a crear una aplicación usando Flutter Bloc.
 
 ## ARQUITECTURA
 
+<img src="https://github.com/JorgeFigueroa626/flutter_articulo/blob/main/ArquitecturaApp.png" class="img-thumbnail">
+
 ## CAPTURAS
+<div>
+<img src="https://github.com/JorgeFigueroa626/flutter_articulo/blob/main/image1.png" class="rounded float-start">
+<img src="https://github.com/JorgeFigueroa626/flutter_articulo/blob/main/image2.png" class="rounded float-start">
+<img src="https://github.com/JorgeFigueroa626/flutter_articulo/blob/main/image3.png" class="rounded float-start">
+</div>
