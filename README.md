@@ -1,16 +1,30 @@
-# my_app_bloc
+## Flutter: Pruebas unitarias de solicitudes http
 
-A new Flutter project.
+En este ejemplo, vamos a crear una aplicación usando Flutter Bloc.
 
-## Getting Started
+-	Aprenda a usar administrar estados usando bloque
+-	Separe la aplicación en varias capas (presentación, lógica comercial, datos)
+-	Hacer una solicitud a una API Rest usando Http
+-	Prueba de unidad y prueba de widget
+-	Manejar excepciones
 
-This project is a starting point for a Flutter application.
+## Requisitos
 
-A few resources to get you started if this is your first Flutter project:
+<p class="card-text bg-light" style="transform: rotate(0);">
+      Obtenga una clave API de <a href="https://newsapi.org/" class="text-warning stretched-link"> https://newsapi.org/</a> 
+ </p>
+ 
+<p class="card-text bg-light" style="transform: rotate(0);">
+      Agregue la clave API en la --> NewsProvider <-- clase
+    </p>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<p class="card-text bg-light" style="transform: rotate(0);">
+  class NewsProvider { <br>
+  static const String _apiKey = 'Change to your own api key';
+ </p>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Ejecute el comando --> flutter pub run build_runner watch --delete-conflicting-outputs <-- para generar el código.
+
+## ARQUITECTURA
+
+## CAPTURAS
