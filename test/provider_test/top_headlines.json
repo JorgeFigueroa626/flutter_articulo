@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Paul Berger",
+      "title": "Wayfair Lost 5 Million Customers and $1.3 Billion Last Year - The Wall Street Journal",
+      "description": "Online furniture seller has been cutting staff and other costs in response to declining demand",
+      "url": "https://www.wsj.com/articles/wayfair-lost-5-million-customers-and-1-3-billion-last-year-83b5bdd4",
+      "urlToImage": "https://images.wsj.net/im-729206/social",
+      "publishedAt": "2023-02-23T17:50:00Z",
+      "content": "MORRISVILLE, N.C. The woman who caused a flight from Jacksonville, Florida, to Washington, D.C., to land at Raleigh-Durham International Airport said Wednesdays incident was a major misunderstanding.… [+1799 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "WRAL.com"
+      },
+      "author": "Joe Fisher, Curt Tremper, Mark Bergin",
+      "title": "'I started freaking out': Woman charged after American Airlines flight diversion explains what led up to emergency landing - WRAL News",
+      "description": "Tiffany Miles is facing a charge of airport obstruction. On Thursday, she's out of jail and on her way to Washington, D.C.",
+      "url": "https://www.wral.com/i-started-freaking-out-woman-charged-after-american-airlines-flight-diversion-explains-what-led-up-to-emergency-landing/20733205/",
+      "urlToImage": "https://wwwcache.wral.com/asset/news/local/2023/02/23/20732928/tm-DMID1-5y0rhx7re-640x480.jpg",
+      "publishedAt": "2023-02-23T17:33:00Z",
+      "content": "MORRISVILLE, N.C. The woman who caused a flight from Jacksonville, Florida, to Washington, D.C., to land at Raleigh-Durham International Airport said Wednesdays incident was a major misunderstanding.… [+1799 chars]"
+    }
+  ]
+}
