@@ -1,37 +1,30 @@
 ## Flutter: Pruebas unitarias de solicitudes http
 
-En este ejemplo, vamos a crear una aplicación usando Flutter Bloc.
+In this example we are going to create an app using [Flutter Bloc](https://pub.dev/packages/flutter_bloc)
 
--	Aprenda a usar administrar estados usando bloque
--	Separe la aplicación en varias capas (presentación, lógica comercial, datos)
--	Hacer una solicitud a una API Rest usando Http
--	Prueba de unidad y prueba de widget
--	Manejar excepciones
+- Learn how to use manage states using bloc
+- Separate the app in multiple layers (presentation, business logic, data)
+- Make request to a Rest API using [Http](https://pub.dev/packages/http)
+- Unit test & widget test
+- Handle exceptions
+
 
 ## Requisitos
 
-<p class="card-text bg-light" style="transform: rotate(0);">
-      Obtenga una clave API de <a href="https://newsapi.org/" class="text-warning stretched-link"> https://newsapi.org/</a> 
- </p>
- 
-<p class="card-text bg-light" style="transform: rotate(0);">
-      Agregue la clave API en la --> NewsProvider <-- clase
-    </p>
+- Get an API key from [https://newsapi.org/](https://newsapi.org/)
+- Add the API key in the `NewsProvider` class
 
-<p class="card-text bg-light" style="transform: rotate(0);">
-  class NewsProvider { <br>
-  static const String _apiKey = 'Change to your own api key';
- </p>
+  ````
+  class NewsProvider {
+    static const String _apiKey = 'Change to your own api key';
+  ````
 
-- Ejecute el comando --> flutter pub run build_runner watch --delete-conflicting-outputs <-- para generar el código.
-
+- Run the command `flutter pub run build_runner watch --delete-conflicting-outputs` to generate the code.
 ## ARQUITECTURA
 
 <img src="https://github.com/JorgeFigueroa626/flutter_articulo/blob/main/ArquitecturaApp.png" class="img-thumbnail">
 
 ## CAPTURAS
-<div>
-<img src="https://github.com/JorgeFigueroa626/flutter_articulo/blob/main/image1.png" class="rounded float-start">
-<img src="https://github.com/JorgeFigueroa626/flutter_articulo/blob/main/image2.png" class="rounded float-start">
-<img src="https://github.com/JorgeFigueroa626/flutter_articulo/blob/main/image3.png" class="rounded float-start">
-</div>
+| Success Response                                | Handle ApiKey Invalid                           | Details                                         |
+|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
+| <img src="https://github.com/JorgeFigueroa626/flutter_articulo/blob/main/image1.png" height="520"> | <img src="https://github.com/JorgeFigueroa626/flutter_articulo/blob/main/image2.png" height="520"> | <img src="https://github.com/JorgeFigueroa626/flutter_articulo/blob/main/image3.png" height="520"> |
